@@ -16,8 +16,29 @@ export interface Skill {
     };
   };
 }
+export interface material {
+  item: {
+    id: number;
+    gameId: number;
+    rarity: number;
+    name: string;
+    description: string;
+    value: number;
+    carryLimit: number;
+    recipes: [];
+    icon: {
+      id: number;
+      kind: string;
+      colorId: number;
+      color: string;
+    };
+  };
+  quantity: number;
+  id: number;
+}
 
-export interface Armor {
+export interface ArmorType {
+  id: number;
   kind: string;
   name: string;
   description: string;
