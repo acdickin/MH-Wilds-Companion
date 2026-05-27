@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function MainHeader() {
   return (
-    <header className="w-full max-w-3xl m-auto bg-white p-4">
+    <header className="w-full max-w-7xl m-auto bg-white p-4">
       <nav className="flex gap-4">
         <Link href="/" className="text-xl font-bold">
           Monster Hunter Wilds Companion

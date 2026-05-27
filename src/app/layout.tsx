@@ -31,7 +31,7 @@ export default function RootLayout({
       <body className="flex flex-col">
         <div className="flex min-h-screen flex-col items-center bg-zinc-50 font-sans bg-linear-to-r from-cyan-500 to-blue-500 dark:bg-black">
           <MainHeader />
-          <main className="flex w-full max-w-3xl flex-1 flex-col items-center justify-between py-16 px-16  bg-white dark:bg-black sm:items-start">
+          <main className="flex w-full max-w-7xl flex-1 flex-col items-center justify-between py-16 px-16  bg-white dark:bg-black sm:items-start">
             {children}
           </main>
         </div>
