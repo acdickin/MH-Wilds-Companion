@@ -16,17 +16,9 @@ const ArmorPage = async () => {
       <h3>Armor</h3>
 
       {armor && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2  gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-6">
           {armor.map(
-            ({
-              id,
-              name,
-              defense,
-              rank,
-              rarity,
-              resistances,
-              skills,
-            }: ArmorType) => (
+            ({ id, name, defense, rank, rarity, skills }: ArmorType) => (
               <Card key={id}>
                 <h4>{name}</h4>
                 <p>Defense: {defense.base}</p>
