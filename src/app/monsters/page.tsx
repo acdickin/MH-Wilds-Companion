@@ -7,6 +7,10 @@ export const metadata = {
 };
 
 export const MonstersPage = () => {
-  return <div>Monsters</div>;
+  return (
+    <div>
+      <h3>Monsters</h3>
+    </div>
+  );
 };
 export default MonstersPage;

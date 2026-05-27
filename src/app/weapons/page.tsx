@@ -6,6 +6,10 @@ export const metadata = {
 };
 
 export const WeaponsPage = () => {
-  return <div>Weapons</div>;
+  return (
+    <div>
+      <h3>Weapons</h3>
+    </div>
+  );
 };
 export default WeaponsPage;

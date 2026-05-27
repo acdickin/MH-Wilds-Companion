@@ -6,6 +6,10 @@ export const metadata = {
 };
 
 export const DecorationsPage = () => {
-  return <div>Decorations</div>;
+  return (
+    <div>
+      <h3>Decorations</h3>
+    </div>
+  );
 };
 export default DecorationsPage;

@@ -7,6 +7,10 @@ export const metadata = {
 };
 
 export const CharmsPage = () => {
-  return <div>Charms</div>;
+  return (
+    <div>
+      <h3>Charms</h3>
+    </div>
+  );
 };
 export default CharmsPage;

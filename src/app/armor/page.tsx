@@ -7,7 +7,11 @@ export const metadata = {
 };
 
 const ArmorPage = () => {
-  return <div>Armor</div>;
+  return (
+    <div>
+      <h3>Armor</h3>
+    </div>
+  );
 };
 
 export default ArmorPage;
